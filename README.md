@@ -1,8 +1,6 @@
 # Electric Bike Motion Classification Project
 
-This project uses embedded machine learning and a SensorTile to recognize and classify six electric-bike riding motions based on IMU sensor data. A neural network processes rotation and acceleration patterns to determine the rider’s action in real time.
-
-## Classified Motions
+Our Electric Bike Project uses neural networks to recognize and classify six distinct riding motions using a SensorTile and an Embedded ML system. The six motions are:
 
 - **Turning Right**
 - **Turning Left**
@@ -15,12 +13,10 @@ This project uses embedded machine learning and a SensorTile to recognize and cl
 
 ## How the System Works
 
-Each motion is defined by a sequence of two states performed by the user. These sequences form the basis of the training data.
+The system classifies each motion using a short sequence of user-generated states, defined as follows:
 
-### State Definitions
-
-| Motion | State Sequence |
-|--------|----------------|
+| Motion | Expected State Sequence |
+|--------|--------------------------|
 | **Turning Right** | Rotate right 45°, then rotate right another 45° |
 | **Turning Left** | Rotate left 45°, then rotate left another 45° |
 | **Accelerating** | Rotate forward 45°, then rotate backward 45° |
@@ -32,7 +28,7 @@ Each motion is defined by a sequence of two states performed by the user. These 
 
 ## Expected Sensor Conditions
 
-The neural network classifies each motion using characteristic rotation and acceleration patterns:
+We expect the neural network to classify each motion based on the following sensor patterns:
 
 ### Turning Right
 - Negative rotation in the *z*-axis  
@@ -52,10 +48,10 @@ The neural network classifies each motion using characteristic rotation and acce
 
 ### Biking Uphill
 - Initial acceleration primarily in the negative *z*-direction  
-- Later readings show acceleration in both negative *z* and negative *y*  
+- Later readings show acceleration in both the negative *z*- and negative *y*-directions  
 
 ### Biking Downhill
 - Initial acceleration primarily in the negative *z*-direction  
-- Later readings show acceleration in both negative *z* and positive *y*  
+- Later readings show acceleration in both the negative *z*- and positive *y*-directions  
 
 ---
