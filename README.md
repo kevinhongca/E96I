@@ -58,7 +58,7 @@ We expect the neural network to classify each motion based on the following sens
 
 ## Acknowledged Resources
 
-We vredit the following tutorials and resources, which informed the design, sensing approach, and machine learning methods used in this project.
+We credit the following tutorials and resources, which informed the design, sensing approach, and machine learning methods used in this project.
 
 11) [Tutorial 11: IoT Machine Learning for Recognition of Motion Events](https://drive.google.com/file/d/105YedzGJ0-isSEeia1SBDauPPjhzj6ts/view)
 - This Tutorial provides the first introduction to a fully integrated system that acquires sensor data, learns to recognize events, and then executes on new sensor data to predict the occurrence of motion events.
