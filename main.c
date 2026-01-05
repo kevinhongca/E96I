@@ -1,6 +1,6 @@
 /**
- * MODIFIED BY CHARLES ZALOOM - 8/3/18
- * IMPLEMENTATION OF EMBEDDEDML IN LEARNING DEVICE ORIENTATION
+ * MODIFIED BY KEVIN HONG - 1/31/23
+ * MODIFICATION OF EMBEDDEDML IN LEARNING DEVICE ORIENTATION
  **/
 
 /**
@@ -1367,3 +1367,4 @@ void assert_failed( uint8_t *file, uint32_t line )
 #endif
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+
